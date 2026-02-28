@@ -1,0 +1,22 @@
+
+# Doxyfile 1.9.1 - Generato automaticamente
+
+PROJECT_NAME           = "Christian Quarto Card Game"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = Italian
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+RECURSIVE              = YES
+OPTIMIZE_OUTPUT_FOR_C  = YES
+INPUT                  = ./src ./headers
+FILE_PATTERNS          = *.c *.h
+EXCLUDE_PATTERNS       = */.git/*
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+HAVE_DOT               = NO
+DOT_PATH               =
